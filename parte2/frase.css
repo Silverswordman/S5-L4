@@ -8,3 +8,34 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+body {
+  font-family: "Bree Serif";
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  text-align: flex-start;
+  margin: 10em;
+}
+
+#testoAlternato {
+  width: 99%;
+  padding: 1em;
+
+  border: 1px solid black;
+}
+
+span {
+  color: darkcyan;
+}
+
+/* i:first-child {
+  display: none;
+} */
+/* i:nth-child(2) {
+  display: none;
+} */
+/* i:last-child {
+  display: none;
+} */
+
+i:nth-child(2) {transform: translate(60px,0px);}
