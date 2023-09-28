@@ -1,0 +1,87 @@
+body {
+  font-family: "Indie Flower", sans-serif;
+  padding: 0.8em;
+}
+#board {
+  background-color: darkgrey;
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px solid rgb(96, 62, 37);
+  justify-content: space-around;
+  padding: 1em;
+}
+.postitall {
+  margin: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4em;
+  box-shadow: 2px 3px 10px;
+}
+
+.postitall h3 {
+  font-weight: bold;
+  font-size: 1.6em;
+  margin-bottom: 0.8em;
+}
+
+#postit1 {
+  width: 260px;
+  height: 210px;
+  background: linear-gradient(palegoldenrod 75%, rgb(142, 139, 139));
+  transform: rotate(3deg);
+ transition:  transform 2s linear;
+}
+
+#postit1:hover { 
+     transform: rotate(0deg), scale(2);}
+
+#postit2 {
+  width: 260px;
+  height: 210px;
+  background: linear-gradient(paleturquoise 75%, rgb(142, 139, 139));
+  transform: rotate(-5deg);
+}
+#postit3 {
+  width: 260px;
+  height: 210px;
+  background: linear-gradient(lightgreen 75%, rgb(142, 139, 139));
+  transform: rotate(7deg);
+}
+#postit4 {
+  width: 260px;
+  height: 210px;
+  background: linear-gradient(plum 75%, rgb(142, 139, 139));
+  transform: rotate(-3deg);
+}
+#postit5 {
+  width: 260px;
+  height: 210px;
+  background: linear-gradient(lightgreen 75%, rgb(142, 139, 139));
+  transform: rotate(-5deg);
+}
+#postit6 {
+  width: 260px;
+  height: 210px;
+  background: linear-gradient(palegoldenrod 75%, rgb(142, 139, 139));
+  transform: rotate(3deg);
+}
+#postit7 {
+  width: 260px;
+  height: 210px;
+  background: linear-gradient(plum 75%, rgb(142, 139, 139));
+  transform: rotate(-5deg);
+}
+#postit8 {
+  width: 260px;
+  height: 210px;
+  background: linear-gradient(paleturquoise 75%, rgb(142, 139, 139));
+  transform: rotate(6deg);
+}
+
+@media screen and (max-width: 1252px) {
+  #board {
+    flex-wrap: nowrap;
+  }
+}
